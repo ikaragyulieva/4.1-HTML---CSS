@@ -1,0 +1,67 @@
+body{
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 4em;
+}
+
+header{
+    border-bottom: 2px solid #ccc;
+}
+
+header .site-title a {
+    color: #000;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+header .site-title, 
+header nav{
+    display: inline-block;
+}
+
+nav ul{
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0 0.5em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #090;
+    padding: 0.5em 1em;
+}
+
+nav a:hover{
+    background-color: #060;
+    color: #fff;
+}
+
+/* a{
+    text-decoration: none;
+    color: rgb(19, 187, 33);
+    
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+main{
+    border-top: 2px solid black;
+    margin-top: 55px;
+} */
+
+/* h1{
+    font-weight: 780;
+    position: absolute;
+    left: 37px;
+    bottom: 93%;
+
+} */
+
