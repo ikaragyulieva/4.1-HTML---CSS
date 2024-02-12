@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+header{
+    padding: 2em;
+    border-bottom: 0.2em solid black;
+
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 2em;
+}
+
+main h2{
+    font-family: Georgia, serif;
+    padding-bottom: 1em;
+}
+
+main p{
+    padding-bottom: 1em;
+}
+
+footer{
+    padding: 1em;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    position: sticky;
+}
