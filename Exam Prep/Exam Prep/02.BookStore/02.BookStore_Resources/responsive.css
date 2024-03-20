@@ -1,0 +1,81 @@
+@media (max-width: 600px) {
+   
+    body{
+        font-size: 14px;
+    }
+    
+    /* HEADER */
+
+    .home-navbar1{
+        display: none;
+    }
+
+    /* CATEGORIES */
+
+    .max-width-container{
+        max-width: 700px;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+    .home-cards-container{
+        grid-gap: 1em;
+        justify-content: center;
+    }
+
+    .category-card-image {
+        width: 200px;
+        height: 200px;
+    }
+
+   /* BOOKSTORE  */
+
+    .home-full-width-banner{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .home-left4{
+        padding: 2em 0;
+    }
+
+    .home-image6{
+        width: 100%;
+    }
+
+    .home-text30{
+        width: 90%
+    }
+
+    .blog-post-card-blog-post-card{
+        max-width: 600px;
+    }
+
+    .blog-post-card-container{
+        padding: 1.5em 0;
+    }
+
+    .home-main{
+        padding-bottom: 3em;
+    }
+
+    /* FOOTER */
+
+    .home-footer1{
+        flex-direction: column-reverse;
+        padding-bottom: 1em;
+        padding-top: 2.5em;
+        padding-left: 1em;
+    }
+
+    .home-links-container{
+        flex-direction: column;
+        grid-gap: 2em;
+        padding-bottom: 1em;
+
+    }
+
+    .home-text51{
+        margin-bottom: 1.5em;
+    }
+}

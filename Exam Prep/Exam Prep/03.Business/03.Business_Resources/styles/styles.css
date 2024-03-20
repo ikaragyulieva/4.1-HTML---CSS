@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* -------- 
+    CABECERA 
+    ------- */
+
+header{
+    display: flex;
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    align-content: flex-start;
+    flex-direction: column;
+    height: 920px;
+}
+
+/* NAVEGADOR */
+.logo-nav{
+    margin: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-image{
+    width: 150px;
+    height: 150px;
+}
+
+
+.header-nav ul{
+    display: flex;
+    gap: 3em;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+/* TEXTO */
+
+.header-info{
+    align-self: flex-start;
+    justify-self:center;
+    /* width: 700px; */
+    color: white;
+    margin-left: 14em;
+    margin-top: 0;
+}
+
+.header-info h1{
+    font-size: 68px;
+    line-height: 1;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+}
+
+.header-info p{
+    width: 800px;
+    margin-top: 1em;
+    line-height: 1.5;
+    font-size: 26px;
+}
+
+
+/* -------- 
+    PARTE PRINCIPAL 
+    ------- */
+
+
+/* BBUSINESS AIMS & OBJECTIVES */
+
+.aims-objectives{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 5em;
+    margin: 10em 5em;
+
+}
+
+.aims-objectives h2{
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    font-size: 32px;
+    color: rgb(55, 40, 43);
+}
+
+.aims-objectives .column{
+    width: 40%;
+}
+
+.column p{
+    line-height: 1.75;
+    font-size: 20px;
+    margin-bottom: 2em;
+    color: rgb(55, 40, 43);
+
+}
+
+.column .more-info{
+    color: rgb(176, 130, 92);
+    font-weight: 550;
+    width: 160px;
+    background-color: white;
+    border: 2px solid rgb(176, 130, 92);
+}
+
+main hr{
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+}
+
+/* SPONSORS & PARTNERS*/
+
+.sponsors-partners{
+    display: flex;
+    flex-direction: column;
+    margin: 6em 12em;
+    align-content: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.sponsors-partners{
+    text-align: center;
+
+}
+
+.sponsors-partners h2{
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    font-size: 32px;
+    color: rgb(176, 130, 92);
+}
+
+.sponsors-partners p{
+    line-height: 1.75;
+    font-size: 20px;
+    margin-bottom: 1em;
+    color: rgb(55, 40, 43);
+}
+
+/* IMG */
+
+.img-sponsors .ims{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 50%;
+    padding: 1em;
+    margin: 2em;
+}
+
+.ims img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* -------
+    FOOTER 
+    --------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 23, 23);
+}
+
+.footer-main{
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    margin: 5em 14em;
+}
+
+.footer-main h3{
+    color: white;
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.footer-main a,
+.footer-main li{
+    color:  rgb(179, 166, 168);
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2;
+}
+
+footer hr{
+    width: 100%;
+    height: 1px;
+    border-width: 0;
+    color:rgb(58, 58, 65);
+    background-color:rgb(58, 58, 65);
+}
+
+.copyright{
+    margin: 0.5em 14em;
+    
+}
+
+footer p{
+    color: rgb(179, 166, 168);
+}
