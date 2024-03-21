@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    body{
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+    .tm-cta-section{
+        width:100%
+    }
+
+    .row{
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
